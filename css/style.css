@@ -1,0 +1,440 @@
+/* -----------------------------------------------------------------------------
+    default css
+------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,500,600,700');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.version-drak {
+    background-color: #040940
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+button {
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0
+}
+
+a {
+    color: #2c3e50;
+    font-size: 14px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3 {
+    font-weight: 400;
+    margin-top: 0
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 70px
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 60px
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px
+}
+
+h5 {
+    font-size: 18px;
+    line-height: 28px
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 26px
+}
+
+p {
+    font-size: 16px;
+    color: #505b6d;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.d-table {
+    width: 100%;
+    height: 100%
+}
+
+.text-light {
+    color: #e2ecfc !important
+}
+
+.text-dark {
+    color: #555555 !important
+}
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    transition: .1s linear;
+    -webkit-transition: .1s linear;
+    -moz-transition: .1s linear;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2.78571429em;
+    padding-left: 2.78571429em;
+    border-width: 1px;
+    line-height: 1.85714286em
+}
+
+
+
+/* -----------------------------------------------------------------------------
+    header
+------------------------------------------------------------------------------*/
+
+header {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 15px 0;
+    box-shadow: 0px 6px 15px 0px rgba(103, 103, 103, 0.35);
+}
+
+.navbar-nav .nav-link {
+    color: rgb(53, 53, 53);
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 10px;
+}
+
+.navbar .download-btn {
+    background: #5BC0BE;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.navbar .download-btn a {
+    font-weight: 500 !important;
+    color: #fff;
+    padding: 9px 30px;
+    text-align: center;
+}
+
+
+
+/* -----------------------------------------------------------------------------
+    jumbotron
+------------------------------------------------------------------------------*/
+
+
+#home-area.bg-1 {
+    background-image: url(../img/slider/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 550px;
+    margin: 85px 0 60px 0;
+}
+
+.title {
+    padding-top: 100px;
+    color: #fff;
+    position: relative;
+}
+
+.title h1 {
+    font-weight: 600;
+}
+
+#home-area .btn {
+    margin-top: 70px;
+}
+
+
+.reg-btn,
+.learn-btn {
+    width: 200px;
+    margin-left: 8px;
+    position: relative;
+}
+
+.reg-btn {
+    background: #5BC0BE;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 26px;
+}
+
+.learn-btn {
+    background: transparent;
+    border: 2px solid #acacac;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 26px;
+}
+
+
+/* -----------------------------------------------------------------------------
+    feature
+------------------------------------------------------------------------------*/
+.section-heading {
+    margin-bottom: 60px;
+}
+
+.box-feature {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, Gecko */
+    box-sizing: border-box;
+    border: 1px solid rgba(152, 152, 152, 0.331);
+    width: 350px;
+    height: 480px;
+    border-radius: 8px;
+}
+
+.img-feature {
+    padding-bottom: 30px;
+}
+
+.caption-feature p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 100px;
+}
+
+.btn-detail-bg {
+    height: 40;
+    width: 200px;
+    background-color: #5BC0BE;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 9px 0px;
+}
+
+.btn-detail-bg .btn--text {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+
+/* -----------------------------------------------------------------------------
+    Advantage
+------------------------------------------------------------------------------*/
+
+.img-advantage {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.caption-advantage p {
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 80px;
+}
+
+
+/* -----------------------------------------------------------------------------
+    Teacher
+------------------------------------------------------------------------------*/
+.teacher h1 {
+    text-align: center;
+}
+
+.teacher-body {
+    position: relative;
+    box-sizing: border-box;
+    width: 352px;
+    height: 100px;
+    background: #fff;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.img-teacher img {
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #5BC0BE;
+    border-radius: 10px;
+}
+
+.title-teacher {
+    box-sizing: border-box;
+    position: relative;
+    height: 100px;
+    width: 230px;
+    padding-top: 20px;
+}
+
+.title-teacher h5 {
+    font-size: 18px;
+}
+
+.title-teacher p {
+    font-size: 14px;
+}
+
+.btn-detail-transparent {
+    display: block;
+    background: transparent;
+    border: 1px solid #5BC0BE;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.btn-detail-transparent {
+    width: 190px;
+    height: 35px;
+    padding: 5px 10px;
+}
+
+.btn--text {
+    color: #5BC0BE;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* -----------------------------------------------------------------------------
+    Testimony
+------------------------------------------------------------------------------*/
+#testimony .container {
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    background: #fff;
+    width: 900px;
+    height: 350px;
+}
+
+.testimony {
+    position: relative;
+    box-sizing: border-box;
+    width: 750px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.text-testimony p {
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    line-height: 1.6;
+}
+
+.profile {
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+}
+
+.img-profile img {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid #5BC0BE;
+    border-radius: 50%;
+    align-content: center;
+}
+
+.profile-name h5 {
+    padding-top: 10px;
+    font-weight: 300;
+
+}
+
+.profile-name span {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: #969696;
+}
+
+
+/* -----------------------------------------------------------------------------
+    Testimony
+------------------------------------------------------------------------------*/
+#brand .title-brand h6 {
+    color: #808080;
+}
+
+.img-brand img {
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+/* -----------------------------------------------------------------------------
+    Contact
+------------------------------------------------------------------------------*/
+.
